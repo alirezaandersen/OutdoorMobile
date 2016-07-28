@@ -54,16 +54,6 @@ export default class CityTempZip extends Component{
            .catch( (e) => e);
   }.bind(this);
 
-  /* using standard fetch */
-  // f = function(zip){
-  //   let self = this;
-  //   console.log("inside f()");
-  //   var url = "http://outdooradventuretime.herokuapp.com/json/weather/?zip=" + zip;
-  //   return fetch(url, {})
-  //     .then((res) => res.json())
-  //     .then((resJson) => self.setState({temp:resJson.temp,city:resJson.city,zip:resJson.zip}))
-  //     .catch((e) => e);
-  // }.bind(this);
 
   render(){
     return(
