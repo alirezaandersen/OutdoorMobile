@@ -8,7 +8,6 @@ export default class CityTempZip extends Component{
   constructor(props){
     super(props);
     this.state = {temp:'',city:'',zip:''};
-    //this.f();
   }
 
   componentWillReceiveProps(nextProps,nextState){
