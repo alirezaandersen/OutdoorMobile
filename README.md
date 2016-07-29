@@ -1,6 +1,6 @@
 # OutdoorMobile
 
-##### this is a basic weather app that calls upon another app's api that I created called [OutdoorAdventures]('https://outdooradventuretime.herokuapp.com/')
+##### This is a basic weather app that calls upon another app's api that I created called [Outdoor Adventures](https://outdooradventuretime.herokuapp.com/)
 
 * ##### to get started download or clone app
 
