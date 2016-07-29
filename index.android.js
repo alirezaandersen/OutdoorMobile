@@ -8,7 +8,7 @@ import CityTempZip from './cityTempZip';
 class OutdoorMobile extends Component{
   constructor(props){
     super(props)
-    this.state =  {zip:''}
+    this.state =  {zip:'Enter Zipcode'}
   }
   isValidZip(input){
     return /^\d{5}$/.test(input);
